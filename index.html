@@ -32,8 +32,10 @@
       <img class="logo" src="images/logo.svg" alt="Base Apparel" />
     </header>
 
-    <img class="mobile-image" src="images/hero-mobile.jpg" alt="" />
-    <img class="desktop-image" src="images/hero-desktop.jpg" alt="" />
+    <picture>
+      <source srcset="images/hero-desktop.jpg" media="(min-width: 55em)" />
+      <img src="images/hero-mobile.jpg" alt="" role="presentation" />
+    </picture>
 
     <main class="content">
       <h1 class="title">

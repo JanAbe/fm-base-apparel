@@ -141,8 +141,7 @@ header {
     ". left right"
     ". left right"
     ". footer right";
-    grid-template-columns: 20% 40% 40%;
-    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 1fr 2fr 2fr;
     gap: 3rem;
   }
 
@@ -170,15 +169,15 @@ header {
     text-align: left;
   }
 
-  .desktop-image {
-    display: block;
+  picture {
     grid-area: right;
     height: 100%;
     width: 100%;
   }
 
-  .mobile-image {
-    display: none;
+  picture img {
+    height: 100%;
+    width: 100%;
   }
 
   footer {
