@@ -33,29 +33,31 @@
     </header>
 
     <picture>
-      <source srcset="images/hero-desktop.jpg" media="(min-width: 55em)" />
+      <source srcset="images/hero-desktop.jpg" media="(min-width: 65em)" />
       <img src="images/hero-mobile.jpg" alt="" role="presentation" />
     </picture>
 
     <main class="content">
-      <h1 class="title">
-        <span>We're</span> <span><strong>coming soon</strong></span>
-      </h1>
+      <div>
+        <h1 class="title">
+          <span>We're</span> <span><strong>coming soon</strong></span>
+        </h1>
 
-      <p class="description">
-        Hello fellow shoppers! We're currently building our new fashion store. Add
-        your email below to stay up-to-date with announcements and our launch
-        deals.
-      </p>
+        <p class="description">
+          Hello fellow shoppers! We're currently building our new fashion store. Add
+          your email below to stay up-to-date with announcements and our launch
+          deals.
+        </p>
 
-      <form class="form" novalidate>
-        <label for="email" class="sr-only">Email</label>
-        <div id="input-wrapper" class="input-wrapper">
-          <input class="email" type="email" id="email" placeholder="Email Address" aria-describedby="emailInvalidError" />
-          <button><img src="images/icon-arrow.svg" alt="arrow pointing to the right"></button>
-        </div>
-        <p id="emailInvalidError" class="sr-only error-text" aria-live="polite"></p>
-      </form>
+        <form class="form" novalidate>
+          <label for="email" class="sr-only">Email</label>
+          <div id="input-wrapper" class="input-wrapper">
+            <input class="email" type="email" id="email" placeholder="Email Address" aria-describedby="emailInvalidError" />
+            <button><img src="images/icon-arrow.svg" alt="Sign up for our announcements and deals"></button>
+          </div>
+          <p id="emailInvalidError" class="sr-only error-text" aria-live="polite"></p>
+        </form>
+      </div>
     </main>
 
     <footer>
